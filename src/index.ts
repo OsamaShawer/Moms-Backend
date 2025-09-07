@@ -60,10 +60,10 @@ app.get("/powerpoints", async (req, res) => {
   if (password === securityCode) {
     res.json({
       files: [
-        { id: 1, src: "http://localhost:3000/media/الاقتران الزوجي.pdf" },
-        { id: 2, src: "http://localhost:3000/media/solved.pdf" },
-        { id: 3, src: "http://localhost:3000/media/HomeworkEven.jpg" },
-        { id: 4, src: "http://localhost:3000/media/SummaryEven.jpg" },
+        { id: 1, src: "https://moms-backend-production.up.railway.app/media/الاقتران الزوجي.pdf" },
+        { id: 2, src: "https://moms-backend-production.up.railway.app/media/solved.pdf" },
+        { id: 3, src: "https://moms-backend-production.up.railway.app/media/HomeworkEven.jpg" },
+        { id: 4, src: "https://moms-backend-production.up.railway.app/media/SummaryEven.jpg" },
       ],
     });
   } else {
@@ -75,10 +75,10 @@ app.get("/all", async (req, res) => {
   if (password === securityCode) {
     res.json({
       files: [
-        { id: 1, src: "http://localhost:3000/media/الاقتران الزوجي.pdf" },
-        { id: 2, src: "http://localhost:3000/media/solved.pdf" },
-        { id: 3, src: "http://localhost:3000/media/HomeworkEven.jpg" },
-        { id: 4, src: "http://localhost:3000/media/SummaryEven.jpg" },
+        { id: 1, src: "https://moms-backend-production.up.railway.app/media/الاقتران الزوجي.pdf" },
+        { id: 2, src: "https://moms-backend-production.up.railway.app/media/solved.pdf" },
+        { id: 3, src: "https://moms-backend-production.up.railway.app/media/HomeworkEven.jpg" },
+        { id: 4, src: "https://moms-backend-production.up.railway.app/media/SummaryEven.jpg" },
       ],
       videos: [
         {
