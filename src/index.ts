@@ -7,14 +7,14 @@ const port = 3000;
 app.use(express.json());
 app.use(
   cors({
-    origin: ["https://mathtest-xi.vercel.app", "https://mathtest-kr4lfn8zl-osamas-projects-0b06dd54.vercel.app", "http://localhost:5173"],
+    origin: ["https://mathtest-xi.vercel.app", "https://mathtest-kr4lfn8zl-osamas-projects-0b06dd54.vercel.app", "http://localhost:5173", "https://mathtest-git-main-osamas-projects-0b06dd54.vercel.app"],
   })
 );
 
 // Serve static media files from backend at /media
 app.use("/media", express.static(path.join(__dirname, "../public")));
 
-const securityCode = "GoodMorning123";
+const securityCode = "Happy";
 
 app.get("/", (_, res) => res.send("Express Is Working"));
 
